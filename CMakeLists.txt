@@ -45,6 +45,9 @@ install(
   scripts/py_node.py 
   scripts/publisher_test_node.py
   scripts/subscriber_test_node.py
+  scripts/motor.py
+  scripts/imu_publisher.py
+  scripts/odometry_test_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
